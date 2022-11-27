@@ -1,0 +1,47 @@
+body {
+    color: aliceblue;
+    background-color: rgb(50, 50, 126);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.azul {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: rgb(124, 197, 231);
+    transition-duration: 0.2s;
+}
+
+.azul:hover {
+    background-color: brown;
+}
+
+.azul:active {
+    background-color: rgb(255, 243, 78);
+}
+
+.verde {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: rgb(124, 197, 231);
+    transition-duration: 0.2s;
+}
+
+.verde:hover {
+    background-color: brown;
+}
+
+.verde:active {
+    background-color: greenyellow;
+}
